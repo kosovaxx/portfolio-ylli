@@ -1,0 +1,11 @@
+node_modules
+dist
+.vercel
+.claude
+# large source masters; the site ships the compressed copies in public/media
+assets/videos
+# local design mockup (points at the masters above)
+preview
+# private working notes
+PORTFOLIO-KICKOFF.md
+MOTION-KIT.md

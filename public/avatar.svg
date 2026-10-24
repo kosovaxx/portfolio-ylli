@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Yll Visuals mark: a Y in a camera viewfinder, with the record light on -->
+  <rect width="128" height="128" rx="32" fill="#151513"/>
+  <g fill="none" stroke="#F3F0E9" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke-width="3.5" opacity=".38">
+      <path d="M26 42V26h16M86 26h16v16M102 86v16H86M42 102H26V86"/>
+    </g>
+    <path d="M45 40 64 64 83 40M64 64v26" stroke-width="10"/>
+  </g>
+  <circle cx="90" cy="38" r="5" fill="#C4521E"/>
+</svg>
