@@ -38,6 +38,13 @@ export const projects: Project[] = [
     how: "Apple-style easing (fast start, long settle), words sliding in, every move cut to the beat, real motion blur.",
   },
   {
+    id: "ask-9x16", aspect: "9x16", title: "Ask", client: "Clarity Scheduling",
+    tags: ["Feature film", "9:16", "30 s"],
+    problem: "A barber's phone rings mid-cut and clients forget their times.",
+    idea: "POV: you ask an AI chat for the newest app that fixes it. Every line of its answer turns into a live card: the booking page, a ring of times, one-tap confirm, the whole day, four languages.",
+    how: "Strict rules: one thing moves at a time, everything builds at the centre, one green dot morphs into every card. Cursor-driven UI, real motion blur, hits locked to the beat.",
+  },
+  {
     id: "move-it-9x16", aspect: "9x16", title: "Move it", client: "Clarity Scheduling",
     tags: ["Feature reel", "9:16", "20 s"],
     problem: "Clients cancel when they could just reschedule.",
@@ -50,6 +57,13 @@ export const projects: Project[] = [
     problem: "Clients don't want to install an app just to book a haircut.",
     idea: "One link. Book in the browser. The barber confirms in seconds.",
     how: "The booking pages lie on a desk while a 2.5D camera glides over them and drops into “Booking request sent”. AI voice. Also cut in 4:5 for Reddit.",
+  },
+  {
+    id: "coming-home-16x9", aspect: "16x9", title: "Coming home", client: "Clarity Scheduling", wide: true,
+    tags: ["Launch film", "16:9", "22 s"],
+    problem: "Every December the diaspora comes home and books from abroad, in their own language.",
+    idea: "One booking button keeps its shape while its words change language on the beat: Termin buchen → Rezervo termin → Book now → Reservar cita. Holiday hours, set once.",
+    how: "A split-flap arrivals board opens the film, then motion UI rebuilt from the app, cuts locked to the track's beat, real motion blur.",
   },
   {
     id: "noshow-9x16-blur", aspect: "9x16", title: "No-show", client: "Clarity Scheduling",

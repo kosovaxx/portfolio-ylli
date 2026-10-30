@@ -214,6 +214,8 @@ export default function App() {
   useReveal();
   useSmoothAnchors();
   const links = contactLinks();
+  const words = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
+  const count = words[projects.length] ?? String(projects.length);
 
   return (
     <>
@@ -252,7 +254,7 @@ export default function App() {
         <section id="work">
           <div className="wrap">
             <div className="sec-head">
-              <div><div className="kicker mono rv">Selected work</div><h2 className="rv">Six films, <em>six problems.</em></h2></div>
+              <div><div className="kicker mono rv">Selected work</div><h2 className="rv">{count} films, <em>{count.toLowerCase()} problems.</em></h2></div>
               <p className="rv">Each one starts with a real problem. Here's the problem, the idea and how it was made.</p>
             </div>
             {projects.map((p, i) => (
